@@ -2,6 +2,8 @@
 
 Ready-to-use UI Test Automation Architecture using Java and Selenium WebDriver. 
 
+Modified by: edgonzales
+
 ## Installation Steps
 
 In order to use the framework:
