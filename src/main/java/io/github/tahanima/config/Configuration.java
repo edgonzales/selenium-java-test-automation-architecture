@@ -30,4 +30,8 @@ public interface Configuration extends Config {
 
     @Key("base.screenshot.path")
     String baseScreenshotPath();
+
+    @Key("etsy.url")
+    String etsyUrl();
+
 }

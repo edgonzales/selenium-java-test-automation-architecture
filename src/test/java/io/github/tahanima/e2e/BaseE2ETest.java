@@ -4,6 +4,7 @@ import static io.github.tahanima.config.ConfigurationManager.config;
 
 import io.github.tahanima.factory.BasePageFactory;
 import io.github.tahanima.factory.BrowserFactory;
+import io.github.tahanima.ui.page.ItemsPage;
 import io.github.tahanima.ui.page.LoginPage;
 import io.github.tahanima.util.TestListener;
 
@@ -21,6 +22,8 @@ public abstract class BaseE2ETest {
     private final WebDriver driver =
             BrowserFactory.valueOf(config().browser().toUpperCase()).getDriver();
     protected LoginPage loginPage;
+
+    protected ItemsPage itemsPage;
 
     protected String getTestDataFilePath(String path) {
         return config().baseTestDataPath() + path;

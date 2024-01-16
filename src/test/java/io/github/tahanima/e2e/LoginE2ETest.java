@@ -8,6 +8,8 @@ import io.github.tahanima.data.LoginData;
 import io.github.tahanima.ui.page.ProductsPage;
 import io.github.tahanima.util.TestRetry;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.ITestNGMethod;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
